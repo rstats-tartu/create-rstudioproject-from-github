@@ -34,24 +34,24 @@ knitr::include_graphics("img/clone-repo.png")
 
 3. step -- go to RStudio > "Project: (None)" > "New Project" > "Version Control".
 
-```{r, echo=FALSE, fig.cap="Step 3. Create RStudio project from version control."}
+```{r, echo=FALSE, fig.cap="Step 3. Create RStudio project from version control.", out.width=600}
 knitr::include_graphics("img/new-project.png")
 ```
 
 4. step -- "Create Project from Version Control" > "Git" > Paste GitHub link into "Repository URL" field > "Create Project".
 
-```{r,echo=FALSE, fig.cap="Step 4. Create a project from a Git repository."}
+```{r,echo=FALSE, fig.cap="Step 4. Create a project from a Git repository.", out.width=600}
 knitr::include_graphics("img/clone-git.png")
 ```
 
 
-```{r, echo=FALSE, fig.cap="Step 4. Clone Git repository and create project."}
+```{r, echo=FALSE, fig.cap="Step 4. Clone Git repository and create project.", out.width=600}
 knitr::include_graphics("img/create-project.png")
 ```
 
 5. step -- congratulations! you have an empty RStudio project that you can start to fill with content. Don't forget to push your changes to GitHub. 
 
-```{r, echo=FALSE, fig.cap="Step 5. Empty project. Note missing README. "}
+```{r, echo=FALSE, fig.cap="Step 5. Empty project. Note missing README. ", out.width=600}
 knitr::include_graphics("img/empty-project.png")
 ```
 
