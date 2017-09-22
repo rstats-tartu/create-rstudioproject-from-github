@@ -3,6 +3,7 @@ title: "Create RStudio project from GitHub"
 author: "Taavi Päll"
 date: "22 9 2017"
 output: html_document
+css: style.css
 ---
 
 ```{r setup, include=FALSE}
