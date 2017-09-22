@@ -4,8 +4,9 @@ author: "Taavi Päll"
 date: "22 9 2017"
 output: 
     html_document:
+      theme: null
+      highlight: null
       css: style.css
-      self_contained: yes
 ---
 
 ```{r setup, include=FALSE}
