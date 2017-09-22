@@ -8,12 +8,12 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, fig.align = 'center')
 ```
 
 ## Create GitHub repo
 
-Here we create a new GitHub repo on GitHub named `eda_demo` and use this repo to start new RStudio project in your local computer.
+Here we create a new repo called `eda_demo` on GitHub and use this repo to start new RStudio project in your local computer.
 
 1. step -- go to your [GitHub](https://github.com) account and create new repo: "+" > "New repository" > "Repository name": `eda_demo` > "Create repository" (Check: "Initialize this repository with a README").
 
