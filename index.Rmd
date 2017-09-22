@@ -8,7 +8,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, fig.align = 'center')
+knitr::opts_chunk$set(echo = TRUE,fig.align = "default", tidy = TRUE)
 ```
 
 ## Create GitHub repo
@@ -17,41 +17,62 @@ Here we create a new repo called `eda_demo` on GitHub and use this repo to start
 
 1. step -- go to your [GitHub](https://github.com) account and create new repo: "+" > "New repository" > "Repository name": `eda_demo` > "Create repository" (Check: "Initialize this repository with a README").
 
+<br>
+
 ```{r, echo=FALSE, fig.cap="Step 1. Initialise repo with README.", out.width=600}
 knitr::include_graphics("img/initialise-readme.png")
 ```
 
+<br>
 
 ```{r,echo=FALSE, fig.cap="Alternative step 1. If you forgot to create README.md in previous step you can add README in quick setup by clicking README. Then you need to scroll to the bottom of the page and commit your just created README. You can also skip creating README this time and clone repo by copying link shown in quick setup to clipboard and then proceed directly to the 3. step.", out.width=600}
 knitr::include_graphics("img/create-repo.png")
 ```
 
+<br>
+
 2. step -- clone repo by clicking on "Clone or download" button > "Copy to clipboard".
+
+<br>
 
 ```{r,echo=FALSE, fig.cap="Step 2. Clone your repo.", out.width=600}
 knitr::include_graphics("img/clone-repo.png")
 ```
 
+
+<br>
+
 ## Create RStudio project
 
 3. step -- go to RStudio > "Project: (None)" > "New Project" > "Version Control".
+
+<br>
 
 ```{r, echo=FALSE, fig.cap="Step 3. Create RStudio project from version control.", out.width=600}
 knitr::include_graphics("img/new-project.png")
 ```
 
+<br>
+
 4. step -- "Create Project from Version Control" > "Git" > Paste GitHub link into "Repository URL" field > "Create Project".
+
+<br>
 
 ```{r,echo=FALSE, fig.cap="Step 4. Create a project from a Git repository.", out.width=600}
 knitr::include_graphics("img/clone-git.png")
 ```
 
+<br>
 
 ```{r, echo=FALSE, fig.cap="Step 4. Clone Git repository and create project.", out.width=600}
 knitr::include_graphics("img/create-project.png")
 ```
 
+<br>
+
 5. step -- congratulations! you have an empty RStudio project that you can start to fill with content. Don't forget to push your changes to GitHub. 
+
+<br>
 
 ```{r, echo=FALSE, fig.cap="Step 5. Empty project. Note missing README. ", out.width=600}
 knitr::include_graphics("img/empty-project.png")
